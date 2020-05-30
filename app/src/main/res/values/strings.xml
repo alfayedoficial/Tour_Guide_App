@@ -1,0 +1,26 @@
+<resources>
+	 <string name="app_name">Tour Guide App</string>
+
+
+	 <!--	 Menu-->
+	 <string name="home_menu">Home</string>
+	 <string name="tourist_place_menu">Tourist Place</string>
+	 <string name="restaurant_menu">Restaurant</string>
+	 <string name="shopping_menu">Shopping</string>
+	 <string name="pharmacies_menu">Pharmacies</string>
+
+	 <string name="navigation_drawer_open">Open navigation drawer</string>
+	 <string name="navigation_drawer_close">Close navigation drawer</string>
+
+	 <string name="art_gallary_of_ontario">You want to see places out of the boring tourist brochures, feel domestic life and pure emotion of living? To meet new people, have fun, learn something new and original?
+Make most of every single trip you made across the globe using our TourGuide app.
+TourGuide is an mobile application where tourists can find local people willing to help them discover the most interesting parts of their world.</string>
+
+	 <string name="textview">TextView</string>
+	 <string name="address">Address</string>
+	 <string name="cairo_egypt">cairo,Egypt</string>
+	 <string name="_202556425">+202556425</string>
+	 <string name="call_now">Call Now</string>
+	 <string name="sorry_no_have_data">Sorry No Have Data</string>
+
+</resources>

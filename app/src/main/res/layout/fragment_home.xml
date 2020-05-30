@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	 xmlns:app="http://schemas.android.com/apk/res-auto"
+	 xmlns:tools="http://schemas.android.com/tools"
+	 android:layout_width="match_parent"
+	 android:layout_height="match_parent"
+	 tools:context=".HomeFragment"
+	>
+
+	 <LinearLayout
+		  android:layout_width="match_parent"
+		  android:layout_height="wrap_content"
+		  android:background="@color/whiteText"
+		  android:orientation="vertical">
+
+		  <ImageView
+			   android:id="@+id/overview_image"
+			   android:layout_width="match_parent"
+			   android:layout_height="250dp"
+			   android:scaleType="centerCrop"
+			   android:src="@drawable/ic_img"/>
+
+		  <TextView
+			   style="@style/overview_fragment_title_text_style"
+			   android:text="Overview" />
+
+		  <TextView
+			   android:id="@+id/textView"
+			   style="@style/overview_fragment_summary_text"
+			   android:layout_width="match_parent"
+			   android:layout_height="wrap_content"
+			   android:text="@string/art_gallary_of_ontario"
+			   android:textAlignment="viewStart"
+			   android:textStyle="bold" />
+
+
+
+	 </LinearLayout>
+</ScrollView>

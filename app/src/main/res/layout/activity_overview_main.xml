@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	 xmlns:app="http://schemas.android.com/apk/res-auto"
+	 xmlns:tools="http://schemas.android.com/tools"
+	 android:layout_width="match_parent"
+	 android:layout_height="match_parent"
+	 tools:context=".OverviewMain">
+
+	 <RelativeLayout
+		  android:layout_width="match_parent"
+		  android:layout_height="wrap_content">
+
+		  <androidx.constraintlayout.widget.ConstraintLayout
+			   android:id="@+id/layoutContent"
+			   android:layout_width="match_parent"
+			   android:layout_height="wrap_content"
+			   android:visibility="visible">
+
+			   <ImageView
+					android:id="@+id/img_ItemOverView"
+					android:layout_width="@dimen/layout_width_0dp"
+					android:layout_height="@dimen/layout_height_200dp"
+					android:scaleType="centerCrop"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent"
+					app:srcCompat="@drawable/ic_img"
+					tools:ignore="ContentDescription" />
+
+			   <TextView
+					android:id="@+id/titlePlace_ItemOverView"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="@dimen/layout_margin_16dp"
+					android:layout_marginTop="@dimen/layout_margin_8dp"
+					android:fontFamily="sans-serif-light"
+					android:paddingStart="@dimen/layout_padding_16dp"
+					android:paddingTop="@dimen/layout_padding_16dp"
+					android:paddingEnd="@dimen/layout_padding_16dp"
+					android:paddingBottom="@dimen/layout_padding_16dp"
+					android:text="@string/textview"
+					android:textSize="@dimen/text_size_up_up_normal"
+					android:textStyle="bold"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/img_ItemOverView" />
+
+			   <RatingBar
+					android:id="@+id/ratingBar_ItemOverView"
+					style="?android:attr/ratingBarStyleSmall"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="@dimen/layout_padding_16dp"
+					android:layout_marginTop="@dimen/layout_margin_8dp"
+					app:layout_constraintStart_toStartOf="@+id/titlePlace_ItemOverView"
+					app:layout_constraintTop_toBottomOf="@+id/titlePlace_ItemOverView"
+					tools:numStars="5"
+					tools:rating="4.5" />
+
+			   <TextView
+					android:id="@+id/ratingtxt_ItemOverView"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="8dp"
+					android:text="4.5"
+					app:layout_constraintBottom_toBottomOf="@+id/ratingBar_ItemOverView"
+					app:layout_constraintStart_toEndOf="@+id/ratingBar_ItemOverView"
+					app:layout_constraintTop_toTopOf="@+id/ratingBar_ItemOverView"
+					tools:ignore="HardcodedText" />
+
+			   <Button
+					android:id="@+id/button"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginEnd="@dimen/layout_padding_16dp"
+					android:background="@color/colorAccent"
+					android:drawableEnd="@drawable/ic_baseline_call_24"
+					android:drawablePadding="@dimen/layout_padding_10dp"
+					android:padding="@dimen/layout_padding_3dp"
+					android:paddingStart="@dimen/layout_padding_7dp"
+					android:paddingEnd="@dimen/layout_padding_7dp"
+					android:text="@string/call_now"
+					android:textColor="@color/whiteText"
+					app:layout_constraintBottom_toBottomOf="@+id/ratingBar_ItemOverView"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintTop_toTopOf="@+id/ratingBar_ItemOverView" />
+
+			   <TextView
+					android:id="@+id/txtDescription_ItemOverView"
+					android:layout_width="@dimen/layout_width_0dp"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/layout_margin_16dp"
+					android:paddingStart="@dimen/layout_padding_16dp"
+					android:paddingEnd="@dimen/layout_padding_16dp"
+					android:text="@string/textview"
+					app:layout_constraintEnd_toEndOf="@+id/button"
+					app:layout_constraintStart_toStartOf="@+id/titlePlace_ItemOverView"
+					app:layout_constraintTop_toBottomOf="@+id/button" />
+
+			   <TextView
+					android:id="@+id/txtAddress_ItemOverView"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/layout_margin_16dp"
+					android:paddingStart="@dimen/layout_padding_16dp"
+					android:paddingTop="@dimen/layout_padding_16dp"
+					android:paddingEnd="@dimen/layout_padding_16dp"
+					android:paddingBottom="@dimen/layout_padding_16dp"
+					android:text="@string/address"
+					android:textSize="@dimen/text_size_down_normal"
+					android:textStyle="bold"
+					app:layout_constraintStart_toStartOf="@+id/txtDescription_ItemOverView"
+					app:layout_constraintTop_toBottomOf="@+id/txtDescription_ItemOverView" />
+
+			   <LinearLayout
+					android:id="@+id/linearLayout"
+					android:layout_width="@dimen/layout_width_0dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_marginTop="@dimen/layout_margin_16dp"
+					android:orientation="horizontal"
+					android:paddingBottom="@dimen/layout_padding_16dp"
+					app:layout_constraintEnd_toEndOf="@+id/button"
+					app:layout_constraintStart_toStartOf="@+id/txtAddress_ItemOverView"
+					app:layout_constraintTop_toBottomOf="@+id/txtAddress_ItemOverView"
+					tools:ignore="UseCompoundDrawables">
+
+					<ImageView
+						 android:layout_width="wrap_content"
+						 android:layout_height="wrap_content"
+						 android:src="@drawable/ic_baseline_place_24"
+						 android:tint="@color/colorAccent"
+						 tools:ignore="ContentDescription" />
+
+					<TextView
+						 android:id="@+id/txtPlace_ItemOverView"
+						 android:layout_width="wrap_content"
+						 android:layout_height="wrap_content"
+						 android:text="@string/cairo_egypt" />
+			   </LinearLayout>
+
+			   <LinearLayout
+					android:layout_width="@dimen/layout_width_0dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_marginTop="@dimen/layout_margin_8dp"
+					android:orientation="horizontal"
+					android:paddingBottom="@dimen/layout_padding_16dp"
+					app:layout_constraintEnd_toEndOf="@+id/button"
+					app:layout_constraintStart_toStartOf="@+id/txtAddress_ItemOverView"
+					app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+					tools:ignore="UseCompoundDrawables">
+
+					<ImageView
+						 android:layout_width="wrap_content"
+						 android:layout_height="wrap_content"
+						 android:src="@drawable/ic_baseline_call_24"
+						 android:tint="@color/colorAccent"
+						 tools:ignore="ContentDescription" />
+
+					<TextView
+						 android:id="@+id/txtTel_ItemOverView"
+						 android:layout_width="wrap_content"
+						 android:layout_height="wrap_content"
+						 android:text="@string/_202556425" />
+			   </LinearLayout>
+
+		  </androidx.constraintlayout.widget.ConstraintLayout>
+
+		  <LinearLayout
+			   android:id="@+id/layoutNoContent"
+			   android:layout_width="match_parent"
+			   android:layout_height="wrap_content"
+			   android:layout_gravity="center"
+			   android:gravity="center"
+			   android:orientation="vertical"
+			   android:visibility="gone">
+
+			   <TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:gravity="center"
+					android:text="@string/sorry_no_have_data"
+					android:textColor="@color/h1_text"
+					android:textSize="@dimen/text_size_lager"
+					android:textStyle="bold" />
+		  </LinearLayout>
+	 </RelativeLayout>
+</ScrollView>
