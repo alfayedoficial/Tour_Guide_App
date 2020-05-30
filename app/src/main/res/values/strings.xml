@@ -82,86 +82,87 @@ TourGuide is an mobile application where tourists can find local people willing 
 	 <string name="l9_d1_description">North of Sharm el-Sheikh, Nabq Protectorate is a coastal
 		  desert landscape of arid beauty and home to the world\'s most northerly mangrove forest. The landscape here is a vista of sand dunes, lonely beaches, and arak bushes, and it\'s one of Egypt\'s most important protected wilderness sites, with a huge amount of birdlife as well as endemic gazelles and ibexes. There are also excellent snorkeling opportunities just offshore from the beaches here.</string>
 
-	 <string name="l1_d2_title"></string>
-	 <string name="l1_d2_address"></string>
-	 <string name="l1_d2_phone"></string>
-	 <string name="l1_d2_description"></string>
+	 <string name="l1_d2_title">House of Spice</string>
+	 <string name="l1_d2_address">Sultan Gardens Resort Shark\'s Bay, Sharm El Sheikh 111 Egypt</string>
+	 <string name="l1_d2_phone">+20 69 3602130</string>
+	 <string name="l1_d2_description">The newest addition to the Sultan Gardens Resort dining options; this exciting new outlet, serving Indian Cuisine, benefits from a central location, eye catching designs and stunning menu which are sure to make it an instant favorite.</string>
 
-	 <string name="l2_d2_title"></string>
-	 <string name="l2_d2_address"></string>
-	 <string name="l2_d2_phone"></string>
-	 <string name="l2_d2_description"></string>
+	 <string name="l2_d2_title">The Queen Vic</string>
+	 <string name="l2_d2_address">Soho Square, Sharm El Sheikh Egypt</string>
+	 <string name="l2_d2_phone">+20 100 010 9109</string>
+	 <string name="l2_d2_description">The Queen Vic is the traditional British local pub, where English native guests feel at home thanks to the design, atmosphere, the look &amp; feel of the pub. Football matches are displayed on screens/T.V during the English football tournament /season. There\'s plenty of room with a long bar, indoor tables, chairs and booths. The Queen Vic serves a wide variety of beers, wines, and non-alcoholic beverages. The front of the Queen Vic is always open, leading out to the large wooden terrace, with outdoor tables and seating overlooking SOHO Square, also providing darts and a billiards room to enjoy with your friends.</string>
 
-	 <string name="l3_d2_title"></string>
-	 <string name="l3_d2_address"></string>
-	 <string name="l3_d2_phone"></string>
-	 <string name="l3_d2_description"></string>
+	 <string name="l3_d2_title">Boharat Restaurant</string>
+	 <string name="l3_d2_address">Namma Bay, next to Tropitl resort and Little Buddha, Sharm El Sheikh Egypt</string>
+	 <string name="l3_d2_phone">+20 69 3600570</string>
+	 <string name="l3_d2_description">Boharat Restaurant is the traditional British local pub, where English native guests feel at home thanks to the design, atmosphere, the look &amp; feel of the pub.</string>
 
-	 <string name="l4_d2_title"></string>
-	 <string name="l4_d2_address"></string>
-	 <string name="l4_d2_phone"></string>
-	 <string name="l4_d2_description"></string>
+	 <string name="l4_d2_title">Fleur De Lis</string>
+	 <string name="l4_d2_address">Sultan Gardens Resort Shark\'s Bay, Sharm El Sheikh 111 Egypt</string>
+	 <string name="l4_d2_phone">+20 69 3602130</string>
+	 <string name="l4_d2_description">Fleur De Lis is the traditional British local pub, where English native guests feel at home thanks to the design, atmosphere, the look &amp; feel of the pub.</string>
 
-	 <string name="l5_d2_title"></string>
-	 <string name="l5_d2_address"></string>
-	 <string name="l5_d2_phone"></string>
-	 <string name="l5_d2_description"></string>
+	 <string name="l5_d2_title">El Kababgy</string>
+	 <string name="l5_d2_address">Mövenpick Resort, Naama Bay, Sharm El Sheikh 46619 Egypt</string>
+	 <string name="l5_d2_phone">+20 69 3600081</string>
+	 <string name="l5_d2_description">Kababgy fuses five-star Swiss service with Egyptian traditions of hospitality. Enjoy smart-casual dining in exquisite surroundings whether you choose to be seated indoors in the laid-back ambiance of Arabic interiors or outdoors with a breathtaking view of Naama Bay. Indulge in rich flavors of charcoal-grilled meats marinated according to time-honored recipes and variety of local delicacies!</string>
 
-	 <string name="l6_d2_title"></string>
-	 <string name="l6_d2_address"></string>
-	 <string name="l6_d2_phone"></string>
-	 <string name="l6_d2_description"></string>
+	 <string name="l6_d2_title">Mandarin Bistro</string>
+	 <string name="l6_d2_address">Soho Square Sharks Bay, Sharm El Sheikh 12444 Egypt</string>
+	 <string name="l6_d2_phone">+20 100 010 9109</string>
+	 <string name="l6_d2_description">Al fresco dining with meals served outside (open-air). Choose from the menus of four tip-top restaurants: Luxor, Mai-Thai, Zen and Bombay, each offering authentic cuisine with specialized chefs &amp; imported spices.</string>
 
-	 <string name="l7_d2_title"></string>
-	 <string name="l7_d2_address"></string>
-	 <string name="l7_d2_phone"></string>
-	 <string name="l7_d2_description"></string>
+	 <string name="l7_d2_title">Casa Mia</string>
+	 <string name="l7_d2_address">Sultan Gardens Resort Shark\'s Bay, Sharm El Sheikh 111 Egypt</string>
+	 <string name="l7_d2_phone">+20 69 3602130</string>
+	 <string name="l7_d2_description">Al fresco dining with meals served outside (open-air). Choose from the menus of four tip-top restaurants:</string>
 
-	 <string name="l8_d2_title"></string>
-	 <string name="l8_d2_address"></string>
-	 <string name="l8_d2_phone"></string>
-	 <string name="l8_d2_description"></string>
+	 <string name="l8_d2_title">Rangoli</string>
+	 <string name="l8_d2_address">Mövenpick Resort, Naama Bay, Sharm El Sheikh 46619 Egypt</string>
+	 <string name="l8_d2_phone">+20 69 3600081</string>
+	 <string name="l8_d2_description">Al fresco dining with meals served outside (open-air). Choose from the menus of four tip-top restaurants:</string>
 
-	 <string name="l9_d2_title"></string>
-	 <string name="l9_d2_address"></string>
-	 <string name="l9_d2_phone"></string>
-	 <string name="l9_d2_description"></string>
+	 <string name="l9_d2_title">Bombay</string>
+	 <string name="l9_d2_address">Soho Square, Sharm El Sheikh 169 Egypt</string>
+	 <string name="l9_d2_phone">+20 100 010 9109</string>
+	 <string name="l9_d2_description">Bombay Indian restaurant with our gourmet chef Tilakraj from Delhi, who demonstrates his wholehearted devotion to Indian food and the tandoori oven. Imported Indian sauces such as melonin masala or jawatri powder are used in different sauce-based dishes, such as Karachi gosht, with tender lamb cooked in a rich and delicious sauce. The menu also includes vegetarian options. Dress code applies for men: no-shorts, no flip-flops</string>
 
-	 <string name="l10_d2_title"></string>
-	 <string name="l10_d2_address"></string>
-	 <string name="l10_d2_phone"></string>
-	 <string name="l10_d2_description"></string>
+	 <string name="l10_d2_title">Arab Bucks</string>
+	 <string name="l10_d2_address">Nabq Bay, opposite Laguna Vista Resort, Sharm El Sheikh Egypt</string>
+	 <string name="l10_d2_phone">+20 100 612 2649</string>
+	 <string name="l10_d2_description">Takeout, Reservations, Outdoor Seating, Seating, Parking Available, Street Parking, Television, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Full Bar, Accepts American Express, Accepts Mastercard, Accepts Visa, Cash Only, Free Wifi, Accepts Credit Cards, Table Service</string>
 
 
-	 <string name="l1_d3_title"></string>
-	 <string name="l1_d3_address"></string>
-	 <string name="l1_d3_phone"></string>
-	 <string name="l1_d3_description"></string>
+	 <string name="l1_d3_title">La Strada Shopping Center</string>
+	 <string name="l1_d3_address">Sultan Gardens Resort Shark\'s Bay, Sharm El Sheikh 111 Egypt</string>
+	 <string name="l1_d3_phone">+20 69 3602130</string>
+	 <string name="l1_d3_description">The newest addition to the Sultan Gardens Resort dining options; this exciting new outlet, serving Indian Cuisine, benefits from a central location, eye catching designs and stunning menu which are sure to make it an instant favorite.</string>
 
-	 <string name="l2_d3_title"></string>
-	 <string name="l2_d3_address"></string>
-	 <string name="l2_d3_phone"></string>
-	 <string name="l2_d3_description"></string>
+	 <string name="l2_d3_title">Soho Square</string>
+	 <string name="l2_d3_address">Soho Square, Sharm El Sheikh Egypt</string>
+	 <string name="l2_d3_phone">+20 100 010 9109</string>
+	 <string name="l2_d3_description">SOHO Square Sharm El Sheikh is the middle East\'s leading shopping &amp; entertainment center, the finest in the Red Sea region. SOHO Square is a hub for entertainment, dining, clubbing, shopping, sport activities enhance with a dancing fountain, mega stage &amp; kids fun activities, a great environment to enjoy with friends, family, or couples.</string>
 
-	 <string name="l3_d3_title"></string>
-	 <string name="l3_d3_address"></string>
-	 <string name="l3_d3_phone"></string>
-	 <string name="l3_d3_description"></string>
+	 <string name="l3_d3_title">Genena City</string>
+	 <string name="l3_d3_address">Halomy Street 38, Sharm El Sheikh 11311 Egypt</string>
+	 <string name="l3_d3_phone">+20 69 3600570</string>
+	 <string name="l3_d3_description">Sharm Tours Club provide a wide range of day tours and Excursions in Sharm El Sheikh to make your holiday i Egypt a memorable experience.</string>
 
-	 <string name="l1_d4_title"></string>
-	 <string name="l1_d4_address"></string>
-	 <string name="l1_d4_phone"></string>
-	 <string name="l1_d4_description"></string>
+	 <string name="l1_d4_title">El - Ezaby Pharmacies</string>
+	 <string name="l1_d4_address">Sharm Elysees St , Inside Il Mercato Sharm El Sheikh Mall, Umm El Sid Hill, Sharm El Sheikh</string>
+	 <string name="l1_d4_phone">+201221616130</string>
+	 <string name="l1_d4_description">El Ezaby Pharmacies is recognized as Egypt’s uncontested leading provider of health and personal care products. A success story that began with one pharmacy established in 1975, the group is now a major corporation driving the country’s healthcare sector. With nearly 40 years of experience serving the Egyptian community, El Ezaby Pharmacies has an ambitious plan to cement its leadership across the region.</string>
 
-	 <string name="l2_d4_title"></string>
-	 <string name="l2_d4_address"></string>
-	 <string name="l2_d4_phone"></string>
-	 <string name="l2_d4_description"></string>
+	 <string name="l2_d4_title">Omar and Omar Pharmacies</string>
+	 <string name="l2_d4_address">El Sultan Qabous St , El Mashaya, Inside Movenpick Mall, Shop No 9, Naama Bay, Sharm El Sheikh</string>
+	 <string name="l2_d4_phone">+201223137145</string>
+	 <string name="l2_d4_description">Omar and Omar Pharmacies is recognized as Egypt’s uncontested leading provider of health and personal care products.</string>
 
-	 <string name="l3_d4_title"></string>
-	 <string name="l3_d4_address"></string>
-	 <string name="l3_d4_phone"></string>
-	 <string name="l3_d4_description"></string>
+	 <string name="l3_d4_title">Islam Fekry Pharmacy</string>
+	 <string name="l3_d4_address">El Montazah, Inside Elmar Mall, Shop No 3g, Ground Floor, Nabq Bay, Sharm El Sheikh" +
+                "Nabq Bay Sharm El Sheikh</string>
+	 <string name="l3_d4_phone">+201223137145</string>
+	 <string name="l3_d4_description">Islam Fekry Pharmacies is recognized as Egypt’s uncontested leading provider of health and personal care products.</string>
 
 
 </resources>

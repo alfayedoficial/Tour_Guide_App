@@ -66,17 +66,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.nav_Restaurant:
-                fragment = new RecyclersFragment(this , StoreData.storeDateRestaurant());
+                fragment = new RecyclersFragment(this , StoreData.storeDateRestaurant(this));
                 MoveFragment.loadFragment(this,fragment,getString(R.string.restaurant_menu));
                 break;
 
             case R.id.nav_shopping:
-                fragment = new RecyclersFragment(this , StoreData.storeDateShopping());
+                fragment = new RecyclersFragment(this , StoreData.storeDateShopping(this));
                 MoveFragment.loadFragment(this,fragment,getString(R.string.restaurant_menu));
                 break;
 
             case R.id.nav_Pharmacies:
-                fragment = new RecyclersFragment(this , StoreData.storeDatePharmacies());
+                fragment = new RecyclersFragment(this , StoreData.storeDatePharmacies(this));
                 MoveFragment.loadFragment(this,fragment,getString(R.string.restaurant_menu));
                 break;
 
