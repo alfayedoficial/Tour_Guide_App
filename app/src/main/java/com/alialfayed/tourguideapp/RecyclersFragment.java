@@ -61,7 +61,7 @@ public class RecyclersFragment extends Fragment implements OnClickItemInfoPlace 
 
     @Override
     public void onItemClick(InfoPlaceModel infoPlaceModel) {
-        Intent intent = new Intent(mainActivity, OverviewMain.class);
+        Intent intent = new Intent(mainActivity, OverviewActivity.class);
         intent.putExtra(Constant.MOVE_INTENT, infoPlaceModel);
         startActivity(intent);
     }

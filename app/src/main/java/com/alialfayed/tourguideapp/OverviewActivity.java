@@ -14,7 +14,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class OverviewMain extends AppCompatActivity {
+public class OverviewActivity extends AppCompatActivity {
 
     @BindView(R.id.img_ItemOverView)
     ImageView imgItemOverView;
@@ -38,7 +38,7 @@ public class OverviewMain extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_overview_main);
+        setContentView(R.layout.activity_overview);
 
         // ButterKnife Initialize
         ButterKnife.bind(this);

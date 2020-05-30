@@ -23,4 +23,145 @@ TourGuide is an mobile application where tourists can find local people willing 
 	 <string name="call_now">Call Now</string>
 	 <string name="sorry_no_have_data">Sorry No Have Data</string>
 
+
+	<!-- List of Data	 -->
+	 <string name="l1_d1_title">Ras Mohammed National Park</string>
+	 <string name="l1_d1_address">38 kilometers south of Sharm el-Sheikh</string>
+	 <string name="l1_d1_phone">+20012205222</string>
+	 <string name="l1_d1_description">
+		  Ras Mohammed National Park is what put Sharm el-Sheikh on the tourist map. Surrounded by some of the world\'s most incredible dive sites, this peninsula is home to glorious beaches with excellent snorkeling just offshore, the world\'s second most northerly mangrove forest, and a saltwater lake. A trip here is a must-do for anyone staying in Sharm el-Sheikh. The best beaches are Old Quay Beach (with its top-notch coral reef easily reached from the shore) and Aqaba Beach.Travelers seeking a good view should head to the Shark Observatory cliff top right on the southern edge of Ras Mohammed, where views stretch across both sides of the Red Sea.
+	 </string>
+
+	 <string name="l2_d1_title">Thistlegorm Dive Site</string>
+	 <string name="l2_d1_address">15 kilometers south of Sharm el-Sheikh</string>
+	 <string name="l2_d1_phone">+20012205222</string>
+	 <string name="l2_d1_description">For many advanced divers, a trip to Sharm el-Sheikh means only one thing: diving the Thistlegorm. One of the top wreck dives in the world, this ship packed full of cargo to resupply British troops was sunk during World War II by German bombers. Fish now flit through its rooms and cargo holds filled with jeeps, motorbikes, and armaments that never made it to the front. The wreck is situated in the Straits of Gubal, off the western coast of the Sinai Peninsula, so it is offered as either a long one-day boat trip from Sharm el-Sheikh or an overnight trip. All boat tours here offer at least two dives of the wreck plus a stop at one of Ras Mohammed\'s dive sites. The overnight trips have the added bonus of a night dive of the wreck.</string>
+
+	 <string name="l3_d1_title">Ras Um Sid Beach and Reef</string>
+	 <string name="l3_d1_address">Al-Fanar Street of Sharm el-Sheikh</string>
+	 <string name="l3_d1_phone">+20055505222</string>
+	 <string name="l3_d1_description">One of Sharm el-Sheikh\'s best beaches is Ras Um Sid, right at the southern tail of the town, near the lighthouse. Here, people slouch on the beach between snorkeling trips into the water where an excellent coral reef is just offshore. Farther away from the sand, Ras Um Sid Reef is perfect for first-time forays into diving and is used as a try-dive site by many local dive operators. Even if you\'re just snorkeling, there is plenty of fish life to see.</string>
+
+	 <string name="l4_d1_title">Saint Catherine\'s Monastery</string>
+	 <string name="l4_d1_address">209 kilometers northwest from Sharm el-Sheikh</string>
+	 <string name="l4_d1_phone">+055320520522</string>
+	 <string name="l4_d1_description" >The Sinai Peninsula top historical destination, St.
+		  Catherine\'s Monastery sits at the foot of Mt. Sinai, where Moses is said to have received the Ten Commandments. One of the oldest working monasteries in the world,
+		  this Greek Orthodox hermitage is home to the famous "burning bush" of the Old
+		  Testament, as well as a museum showcasing some of the monastery\'s glittering
+		  collection of religious icons and ancient manuscripts that is revered as one of the finest in the world. A day trip here is one of the top things to do for any history-lover staying in Sharm el-Sheikh and can also include a hike up to the summit of Mt. Sinai.</string>
+
+	 <string name="l5_d1_title">Dahab</string>
+	 <string name="l5_d1_address">90 kilometers north of Sharm el-Sheikh</string>
+	 <string name="l5_d1_phone">+2005550555892</string>
+	 <string name="l5_d1_description">Dahab is the Sinai\'s backpacker beach resort and a
+		  chilled-out alternative to the holiday package feel of Sharm el-Sheikh. Along the shore is a huge number of casual restaurants and cafés, while a cute shopping district winds its way up to the main highway in a jumble of souvenir shops. There is some excellent diving and snorkeling here, which is the reason most people come, but Dahab\'s laid-back atmosphere is also great for a day out from Sharm el-Sheikh.</string>
+
+	 <string name="l6_d1_title">Gardens Dive Site</string>
+	 <string name="l6_d1_address">90 kilometers north of Sharm el-Sheikh</string>
+	 <string name="l6_d1_phone">+25520222002</string>
+	 <string name="l6_d1_description">At the northern end of Naama Bay, the Gardens Reefs stretch
+		  out just offshore from the coast. This reef system is actually three different snorkeling and diving sites called Near Garden, Middle Garden, and Far Garden that can be accessed by both the shore and by boat. If you just want to snorkel, Near Garden is the best (and easiest) site to access and is home to some amazing coral pinnacles with plenty of flitting clownfish and butterfly fish in residence.</string>
+
+	 <string name="l7_d1_title">Thomas Reef Dive Site</string>
+	 <string name="l7_d1_address">90 kilometers north of Sharm el-Sheikh</string>
+	 <string name="l7_d1_phone">+20055505222</string>
+	 <string name="l7_d1_description">Part of the Tiran Straits set of dive sites, Thomas Reef
+		  offers incredible underwater vistas of soft coral and vast schools of fish. It\'s a
+		  deep wall reef dive that is popular with experienced divers for the fantastic array of colored coral on display. This is one of Sharm el-Sheikh\'s top dives for those who really want to experience the abundance of sea life that calls the Red Sea its home</string>
+
+	 <string name="l8_d1_title">Colored Canyon</string>
+	 <string name="l8_d1_address">177 kilometers north of Sharm el-Sheikh</string>
+	 <string name="l8_d1_phone">+20055505222</string>
+	 <string name="l8_d1_description">The swirling mineral-rich layered rock formations of this
+		  canyon are one of the Sinai\'s top out-of-the-water natural attractions. It\'s a showcase of the natural beauty of the desert, with plenty of opportunities for scrambling around the rock faces and hiking fun. For nature lovers, this is one of Sharm el-Sheikh\'s top days out, and exploring the bizarrely shaped pinnacles and boulders, which have been brushed with shimmering red and orange hues makes for some fantastic photography.</string>
+
+	 <string name="l9_d1_title">Nabq Protectorate</string>
+	 <string name="l9_d1_address">20 kilometers north of Sharm el-Sheikh</string>
+	 <string name="l9_d1_phone">+2006501622</string>
+	 <string name="l9_d1_description">North of Sharm el-Sheikh, Nabq Protectorate is a coastal
+		  desert landscape of arid beauty and home to the world\'s most northerly mangrove forest. The landscape here is a vista of sand dunes, lonely beaches, and arak bushes, and it\'s one of Egypt\'s most important protected wilderness sites, with a huge amount of birdlife as well as endemic gazelles and ibexes. There are also excellent snorkeling opportunities just offshore from the beaches here.</string>
+
+	 <string name="l1_d2_title"></string>
+	 <string name="l1_d2_address"></string>
+	 <string name="l1_d2_phone"></string>
+	 <string name="l1_d2_description"></string>
+
+	 <string name="l2_d2_title"></string>
+	 <string name="l2_d2_address"></string>
+	 <string name="l2_d2_phone"></string>
+	 <string name="l2_d2_description"></string>
+
+	 <string name="l3_d2_title"></string>
+	 <string name="l3_d2_address"></string>
+	 <string name="l3_d2_phone"></string>
+	 <string name="l3_d2_description"></string>
+
+	 <string name="l4_d2_title"></string>
+	 <string name="l4_d2_address"></string>
+	 <string name="l4_d2_phone"></string>
+	 <string name="l4_d2_description"></string>
+
+	 <string name="l5_d2_title"></string>
+	 <string name="l5_d2_address"></string>
+	 <string name="l5_d2_phone"></string>
+	 <string name="l5_d2_description"></string>
+
+	 <string name="l6_d2_title"></string>
+	 <string name="l6_d2_address"></string>
+	 <string name="l6_d2_phone"></string>
+	 <string name="l6_d2_description"></string>
+
+	 <string name="l7_d2_title"></string>
+	 <string name="l7_d2_address"></string>
+	 <string name="l7_d2_phone"></string>
+	 <string name="l7_d2_description"></string>
+
+	 <string name="l8_d2_title"></string>
+	 <string name="l8_d2_address"></string>
+	 <string name="l8_d2_phone"></string>
+	 <string name="l8_d2_description"></string>
+
+	 <string name="l9_d2_title"></string>
+	 <string name="l9_d2_address"></string>
+	 <string name="l9_d2_phone"></string>
+	 <string name="l9_d2_description"></string>
+
+	 <string name="l10_d2_title"></string>
+	 <string name="l10_d2_address"></string>
+	 <string name="l10_d2_phone"></string>
+	 <string name="l10_d2_description"></string>
+
+
+	 <string name="l1_d3_title"></string>
+	 <string name="l1_d3_address"></string>
+	 <string name="l1_d3_phone"></string>
+	 <string name="l1_d3_description"></string>
+
+	 <string name="l2_d3_title"></string>
+	 <string name="l2_d3_address"></string>
+	 <string name="l2_d3_phone"></string>
+	 <string name="l2_d3_description"></string>
+
+	 <string name="l3_d3_title"></string>
+	 <string name="l3_d3_address"></string>
+	 <string name="l3_d3_phone"></string>
+	 <string name="l3_d3_description"></string>
+
+	 <string name="l1_d4_title"></string>
+	 <string name="l1_d4_address"></string>
+	 <string name="l1_d4_phone"></string>
+	 <string name="l1_d4_description"></string>
+
+	 <string name="l2_d4_title"></string>
+	 <string name="l2_d4_address"></string>
+	 <string name="l2_d4_phone"></string>
+	 <string name="l2_d4_description"></string>
+
+	 <string name="l3_d4_title"></string>
+	 <string name="l3_d4_address"></string>
+	 <string name="l3_d4_phone"></string>
+	 <string name="l3_d4_description"></string>
+
+
 </resources>

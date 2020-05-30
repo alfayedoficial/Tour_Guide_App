@@ -9,88 +9,88 @@ import java.util.ArrayList;
  */
 public class StoreData {
 
-    public static ArrayList<InfoPlaceModel> storeDateTouristPlace(){
+    public static ArrayList<InfoPlaceModel> storeDateTouristPlace(MainActivity mainActivity){
         ArrayList<InfoPlaceModel> infoPlaceArrayList = new ArrayList<>();
         InfoPlaceModel infoPlaceModel = new InfoPlaceModel();
 
         infoPlaceModel.setImgPlace(R.drawable.ic_ras_mohammed_national_park);
-        infoPlaceModel.setNamePlace("Ras Mohammed National Park");
-        infoPlaceModel.setAddressPlace("38 kilometers south of Sharm el-Sheikh");
-        infoPlaceModel.setPhonePlace("+20012205222");
+        infoPlaceModel.setNamePlace(mainActivity.getString(R.string.l1_d1_title));
+        infoPlaceModel.setAddressPlace(mainActivity.getString(R.string.l1_d1_address));
+        infoPlaceModel.setPhonePlace(mainActivity.getString(R.string.l1_d1_phone));
         infoPlaceModel.setRatePlace(5f);
-        infoPlaceModel.setDescriptionPlace("Ras Mohammed National Park is what put Sharm el-Sheikh on the tourist map. Surrounded by some of the world's most incredible dive sites, this peninsula is home to glorious beaches with excellent snorkeling just offshore, the world's second most northerly mangrove forest, and a saltwater lake. A trip here is a must-do for anyone staying in Sharm el-Sheikh. The best beaches are Old Quay Beach (with its top-notch coral reef easily reached from the shore) and Aqaba Beach.\n\nTravelers seeking a good view should head to the Shark Observatory cliff top right on the southern edge of Ras Mohammed, where views stretch across both sides of the Red Sea.");
+        infoPlaceModel.setDescriptionPlace(mainActivity.getString(R.string.l1_d1_description));
         infoPlaceArrayList.add(infoPlaceModel);
 
         infoPlaceModel = new InfoPlaceModel();
         infoPlaceModel.setImgPlace(R.drawable.ic_thistlegorm_dive_site);
-        infoPlaceModel.setNamePlace("Thistlegorm Dive Site");
-        infoPlaceModel.setAddressPlace("15 kilometers south of Sharm el-Sheikh");
-        infoPlaceModel.setPhonePlace("+20012205222");
+        infoPlaceModel.setNamePlace(mainActivity.getString(R.string.l2_d1_title));
+        infoPlaceModel.setAddressPlace(mainActivity.getString(R.string.l2_d1_address));
+        infoPlaceModel.setPhonePlace(mainActivity.getString(R.string.l2_d1_phone));
         infoPlaceModel.setRatePlace(3.9f);
-        infoPlaceModel.setDescriptionPlace("For many advanced divers, a trip to Sharm el-Sheikh means only one thing: diving the Thistlegorm. One of the top wreck dives in the world, this ship packed full of cargo to resupply British troops was sunk during World War II by German bombers. Fish now flit through its rooms and cargo holds filled with jeeps, motorbikes, and armaments that never made it to the front. The wreck is situated in the Straits of Gubal, off the western coast of the Sinai Peninsula, so it is offered as either a long one-day boat trip from Sharm el-Sheikh or an overnight trip. All boat tours here offer at least two dives of the wreck plus a stop at one of Ras Mohammed's dive sites. The overnight trips have the added bonus of a night dive of the wreck.");
+        infoPlaceModel.setDescriptionPlace(mainActivity.getString(R.string.l2_d1_description));
         infoPlaceArrayList.add(infoPlaceModel);
 
         infoPlaceModel = new InfoPlaceModel();
         infoPlaceModel.setImgPlace(R.drawable.ic_ras_um_sid_beach_and_reef);
-        infoPlaceModel.setNamePlace("Ras Um Sid Beach and Reef");
-        infoPlaceModel.setAddressPlace("Al-Fanar Street of Sharm el-Sheikh");
-        infoPlaceModel.setPhonePlace("+20055505222");
+        infoPlaceModel.setNamePlace(mainActivity.getString(R.string.l3_d1_title));
+        infoPlaceModel.setAddressPlace(mainActivity.getString(R.string.l3_d1_address));
+        infoPlaceModel.setPhonePlace(mainActivity.getString(R.string.l3_d1_phone));
         infoPlaceModel.setRatePlace(4.2f);
-        infoPlaceModel.setDescriptionPlace("One of Sharm el-Sheikh's best beaches is Ras Um Sid, right at the southern tail of the town, near the lighthouse. Here, people slouch on the beach between snorkeling trips into the water where an excellent coral reef is just offshore. Farther away from the sand, Ras Um Sid Reef is perfect for first-time forays into diving and is used as a try-dive site by many local dive operators. Even if you're just snorkeling, there is plenty of fish life to see.");
+        infoPlaceModel.setDescriptionPlace(mainActivity.getString(R.string.l3_d1_description));
         infoPlaceArrayList.add(infoPlaceModel);
 
         infoPlaceModel = new InfoPlaceModel();
         infoPlaceModel.setImgPlace(R.drawable.ic_saint_catherines_monastery);
-        infoPlaceModel.setNamePlace("Saint Catherine's Monastery");
-        infoPlaceModel.setAddressPlace("209 kilometers northwest from Sharm el-Sheikh");
-        infoPlaceModel.setPhonePlace("+055320520522");
+        infoPlaceModel.setNamePlace(mainActivity.getString(R.string.l4_d1_title));
+        infoPlaceModel.setAddressPlace(mainActivity.getString(R.string.l4_d1_address));
+        infoPlaceModel.setPhonePlace(mainActivity.getString(R.string.l4_d1_phone));
         infoPlaceModel.setRatePlace(4.9f);
-        infoPlaceModel.setDescriptionPlace("The Sinai Peninsula's top historical destination, St. Catherine's Monastery sits at the foot of Mt. Sinai, where Moses is said to have received the Ten Commandments. One of the oldest working monasteries in the world, this Greek Orthodox hermitage is home to the famous \"burning bush\" of the Old Testament, as well as a museum showcasing some of the monastery's glittering collection of religious icons and ancient manuscripts that is revered as one of the finest in the world. A day trip here is one of the top things to do for any history-lover staying in Sharm el-Sheikh and can also include a hike up to the summit of Mt. Sinai.");
+        infoPlaceModel.setDescriptionPlace(mainActivity.getString(R.string.l4_d1_description));
         infoPlaceArrayList.add(infoPlaceModel);
 
         infoPlaceModel = new InfoPlaceModel();
         infoPlaceModel.setImgPlace(R.drawable.ic_dahab);
-        infoPlaceModel.setNamePlace("Dahab");
-        infoPlaceModel.setAddressPlace("90 kilometers north of Sharm el-Sheikh");
-        infoPlaceModel.setPhonePlace("+2005550555892");
+        infoPlaceModel.setNamePlace(mainActivity.getString(R.string.l5_d1_title));
+        infoPlaceModel.setAddressPlace(mainActivity.getString(R.string.l5_d1_address));
+        infoPlaceModel.setPhonePlace(mainActivity.getString(R.string.l5_d1_phone));
         infoPlaceModel.setRatePlace(4.7f);
-        infoPlaceModel.setDescriptionPlace("Dahab is the Sinai's backpacker beach resort and a chilled-out alternative to the holiday package feel of Sharm el-Sheikh. Along the shore is a huge number of casual restaurants and cafés, while a cute shopping district winds its way up to the main highway in a jumble of souvenir shops. There is some excellent diving and snorkeling here, which is the reason most people come, but Dahab's laid-back atmosphere is also great for a day out from Sharm el-Sheikh.");
+        infoPlaceModel.setDescriptionPlace(mainActivity.getString(R.string.l5_d1_description));
         infoPlaceArrayList.add(infoPlaceModel);
 
         infoPlaceModel = new InfoPlaceModel();
         infoPlaceModel.setImgPlace(R.drawable.ic_gardens_dive_site);
-        infoPlaceModel.setNamePlace("Gardens Dive Site");
-        infoPlaceModel.setAddressPlace("90 kilometers north of Sharm el-Sheikh");
-        infoPlaceModel.setPhonePlace("+25520222002");
+        infoPlaceModel.setNamePlace(mainActivity.getString(R.string.l6_d1_title));
+        infoPlaceModel.setAddressPlace(mainActivity.getString(R.string.l6_d1_address));
+        infoPlaceModel.setPhonePlace(mainActivity.getString(R.string.l6_d1_phone));
         infoPlaceModel.setRatePlace(4.2f);
-        infoPlaceModel.setDescriptionPlace("At the northern end of Naama Bay, the Gardens Reefs stretch out just offshore from the coast. This reef system is actually three different snorkeling and diving sites called Near Garden, Middle Garden, and Far Garden that can be accessed by both the shore and by boat. If you just want to snorkel, Near Garden is the best (and easiest) site to access and is home to some amazing coral pinnacles with plenty of flitting clownfish and butterfly fish in residence.");
+        infoPlaceModel.setDescriptionPlace(mainActivity.getString(R.string.l6_d1_description));
         infoPlaceArrayList.add(infoPlaceModel);
 
         infoPlaceModel = new InfoPlaceModel();
         infoPlaceModel.setImgPlace(R.drawable.ic_thomas_reef_dive_site);
-        infoPlaceModel.setNamePlace("Thomas Reef Dive Site");
-        infoPlaceModel.setAddressPlace("90 kilometers north of Sharm el-Sheikh");
-        infoPlaceModel.setPhonePlace("+20055505222");
+        infoPlaceModel.setNamePlace(mainActivity.getString(R.string.l7_d1_title));
+        infoPlaceModel.setAddressPlace(mainActivity.getString(R.string.l7_d1_address));
+        infoPlaceModel.setPhonePlace(mainActivity.getString(R.string.l7_d1_phone));
         infoPlaceModel.setRatePlace(4f);
-        infoPlaceModel.setDescriptionPlace("Part of the Tiran Straits set of dive sites, Thomas Reef offers incredible underwater vistas of soft coral and vast schools of fish. It's a deep wall reef dive that is popular with experienced divers for the fantastic array of colored coral on display. This is one of Sharm el-Sheikh's top dives for those who really want to experience the abundance of sea life that calls the Red Sea its home");
+        infoPlaceModel.setDescriptionPlace(mainActivity.getString(R.string.l7_d1_description));
         infoPlaceArrayList.add(infoPlaceModel);
 
         infoPlaceModel = new InfoPlaceModel();
         infoPlaceModel.setImgPlace(R.drawable.ic_colored_canyon);
-        infoPlaceModel.setNamePlace("Colored Canyon");
-        infoPlaceModel.setAddressPlace("177 kilometers north of Sharm el-Sheikh");
-        infoPlaceModel.setPhonePlace("+20055505222");
+        infoPlaceModel.setNamePlace(mainActivity.getString(R.string.l8_d1_title));
+        infoPlaceModel.setAddressPlace(mainActivity.getString(R.string.l8_d1_address));
+        infoPlaceModel.setPhonePlace(mainActivity.getString(R.string.l8_d1_phone));
         infoPlaceModel.setRatePlace(5f);
-        infoPlaceModel.setDescriptionPlace("The swirling mineral-rich layered rock formations of this canyon are one of the Sinai's top out-of-the-water natural attractions. It's a showcase of the natural beauty of the desert, with plenty of opportunities for scrambling around the rock faces and hiking fun. For nature lovers, this is one of Sharm el-Sheikh's top days out, and exploring the bizarrely shaped pinnacles and boulders, which have been brushed with shimmering red and orange hues makes for some fantastic photography.");
+        infoPlaceModel.setDescriptionPlace(mainActivity.getString(R.string.l8_d1_description));
         infoPlaceArrayList.add(infoPlaceModel);
 
         infoPlaceModel = new InfoPlaceModel();
         infoPlaceModel.setImgPlace(R.drawable.ic_nabq_protectorate);
-        infoPlaceModel.setNamePlace("Nabq Protectorate");
-        infoPlaceModel.setAddressPlace("20 kilometers north of Sharm el-Sheikh");
-        infoPlaceModel.setPhonePlace("+2006501622");
+        infoPlaceModel.setNamePlace(mainActivity.getString(R.string.l9_d1_title));
+        infoPlaceModel.setAddressPlace(mainActivity.getString(R.string.l9_d1_address));
+        infoPlaceModel.setPhonePlace(mainActivity.getString(R.string.l9_d1_phone));
         infoPlaceModel.setRatePlace(4.7f);
-        infoPlaceModel.setDescriptionPlace("North of Sharm el-Sheikh, Nabq Protectorate is a coastal desert landscape of arid beauty and home to the world's most northerly mangrove forest. The landscape here is a vista of sand dunes, lonely beaches, and arak bushes, and it's one of Egypt's most important protected wilderness sites, with a huge amount of birdlife as well as endemic gazelles and ibexes. There are also excellent snorkeling opportunities just offshore from the beaches here.");
+        infoPlaceModel.setDescriptionPlace(mainActivity.getString(R.string.l9_d1_description));
         infoPlaceArrayList.add(infoPlaceModel);
 
         return infoPlaceArrayList;

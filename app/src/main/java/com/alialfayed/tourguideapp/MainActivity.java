@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch (id){
 
             case R.id.nav_TouristPlace:
-                fragment = new RecyclersFragment(this , StoreData.storeDateTouristPlace());
+                fragment = new RecyclersFragment(this , StoreData.storeDateTouristPlace(this));
                 MoveFragment.loadFragment(this,fragment,getString(R.string.tourist_place_menu));
                 break;
 
