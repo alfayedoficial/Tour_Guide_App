@@ -25,7 +25,7 @@ public class MoveFragment {
         transaction.replace(R.id.content_body, fragment);
         transaction.addToBackStack(null);
         transaction.commit();
-//        mainActivity.getSupportActionBar().setTitle(title);
+        mainActivity.getSupportActionBar().setTitle(title);
     }
 
 

@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         ButterKnife.bind(this);
 
         // ToolBar initialize
-        setTitle(getString(R.string.home_menu));
+//        setTitle(getString(R.string.home_menu));
         setSupportActionBar(toolbarHome);
 
         // DrawerLayout initialize
@@ -72,12 +72,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             case R.id.nav_shopping:
                 fragment = new RecyclersFragment(this , StoreData.storeDateShopping(this));
-                MoveFragment.loadFragment(this,fragment,getString(R.string.restaurant_menu));
+                MoveFragment.loadFragment(this,fragment,getString(R.string.shopping_menu));
                 break;
 
             case R.id.nav_Pharmacies:
                 fragment = new RecyclersFragment(this , StoreData.storeDatePharmacies(this));
-                MoveFragment.loadFragment(this,fragment,getString(R.string.restaurant_menu));
+                MoveFragment.loadFragment(this,fragment,getString(R.string.pharmacies_menu));
                 break;
 
             default:
